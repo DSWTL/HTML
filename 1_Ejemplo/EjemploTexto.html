@@ -1,6 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
-<!--fsdfsdf-->
+<!DOCTYPE html>
+
+<!--
+  Author: Alexa S. Martínez Carranza.
+  Date: 03/03/21
+-->
 
 <head>
   <title>Estructura de Texto</title>
@@ -12,8 +15,12 @@
   <meta name="description" content="Ejemplo de XHTML y HTML5"/>
   <meta name="keywords" content="HTML5, HTML, XHTML"/>
   <meta name="author" content="Dannas"/>
+    <!--OpenGraph-->
+  <meta property="og:tittle"content="Estructura de Texto"/>
   
-  <script type="text/javascript">
+
+
+<script type="text/javascript">
     //<![CDATA[
       window.onload = function() { alert("La página se ha cargado exitosamente :)"); }
     //]]>
@@ -26,9 +33,9 @@
   <p>La página que estás viendo requiere para su funcionamiento el uso de JavaScript.
 Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
 </noscript>
-<img src="logotipo.gif" alt="Logotipo de esta página" />
-<ul>
-    <li><a href="#">Inicio</a></li>
+<img src="https://www.caras.com.mx/wp-content/uploads/2018/05/El-secreto-mejor-guardado-de-La-noche-estrellada-de-Van-Gogh.jpg" alt="Logotipo de esta página" />
+<ul type="square">
+    <li><a href="#" target = "blank">Inicio</a></li>
     <li><a href="ftp://ftp.ejemplo.com/ruta/archivo.zip" title="Archivo comprimido de los contenidos">Descarga un ZIP</a></li> 
     <li><a href="mailto:nombre@direccion.com?subject=Solicitud de más información">Solicitar Información</a></li>
   </ul>
@@ -42,9 +49,17 @@ Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
   <dd>Lenguaje basado en SGML y que se emplea para describir datos</dd>
  
   <dt>RSS</dt>
+  <dd>Es un recurso para la distribución de contenidos en tiempo real basado en el lenguaje XML.</dd>
+  
   <dt>GML</dt>
+  <dd>Es una gramática XML para expresar características geográficas. GML sirve como lenguaje de modelado para sistemas geográficos, así como como formato de intercambio abierto para transacciones geográficas en Internet.</dd>
+
   <dt>XHTML</dt>
+  <dd>Es un lenguaje similar a HTML, pero con algunas diferencias que lo hacen más robusto y aconsejable para la modelación de páginas web.</dd>
+  
   <dt>SVG</dt>
+  <dd>Es un formato de archivo abierto y gratuito para crear gráficos vectoriales en dos dimensiones.</dd>
+  
   <dt>XUL</dt>
   <dd>Lenguajes derivados de XML para determinadas aplicaciones</dd>
 </dl>
@@ -155,7 +170,7 @@ El éxito de las .com dependía de webs más dinámicas (a veces llamadas Web 1.
 <img src="imagen.gif" usemap="#mapa_zonas" /> 
 <map name="mapa_zonas">
   <area shape="rect" coords="20,25,84,113" href="#" />
-  <area shape="polygon" coords="90,25,162,26,163,96,89,25,90,24" href="#" />
+  <area shape="poly" coords="90,25,162,26,163,96,89,25,90,24" href="#" />
   <area shape="circle" coords="130,114,29" href="#" />
   <area shape="rect" coords="19,156,170,211" href="#" />
   <area shape="default" nohref="nohref" />
